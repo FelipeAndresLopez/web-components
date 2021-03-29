@@ -1,0 +1,25 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "A overview and samples about Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FelipeAndresLopez/web-components.git"
+  },
+  "keywords": [
+    "Js",
+    "WebComponents",
+    "Html",
+    "Css"
+  ],
+  "author": "Felipe Andrés López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelipeAndresLopez/web-components/issues"
+  },
+  "homepage": "https://github.com/FelipeAndresLopez/web-components#readme"
+}

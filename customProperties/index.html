@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom properties</title>
+    <style>
+        my-element {
+            --primary-color: blue;
+            --heading1: 50px;
+        }
+
+
+        my-element.red {
+            --primary-color: red;
+            --heading1: 50px;
+        }
+    </style>
+</head>
+<body>
+    <my-element>
+        <span slot="title">
+            Hello title
+        </span>
+        <span slot="paragraph">
+            Hello paragraph
+        </span>
+    </my-element>
+
+
+    <my-element class="red">
+        <span slot="title">
+            Hello title
+        </span>
+        <span slot="paragraph">
+            Hello paragraph
+        </span>
+    </my-element>
+    <script src="./myElement.js"></script>
+</body>
+</html>
